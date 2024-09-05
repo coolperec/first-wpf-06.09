@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>first_wpf_06._09</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="коллаж.png" />
+    <None Remove="Снимок экрана 2024-06-05 001001.png" />
+    <None Remove="Снимок экрана 2024-06-16 133631.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="коллаж.png" />
+    <Resource Include="Снимок экрана 2024-06-05 001001.png" />
+    <Resource Include="Снимок экрана 2024-06-16 133631.png" />
+  </ItemGroup>
+
+</Project>
